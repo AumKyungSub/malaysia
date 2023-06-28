@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kay Aum" />
+    <meta name="description" content="포트폴리오, 플렉스" />
+    <title>Portfolio , Flex Malaysia</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="shortcut icon" href="./images/favicon/fav32.png" />
+    <link
+      rel="apple-touch-icon=precomposed"
+      href="./images/favicon/fav180.png"
+    />
+    <!-- 기본 코딩 JS 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+
+    <!-- bxSlider -->
+    <script src="./js/jquery.bxslider.js"></script>
+
+    <!-- 기본 코딩 CSS 파일 -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- Aside SNB -->
+      <aside class="top_aside">
+        <div class="top_sub w1300">
+          <p>나에게 맞는 여행지 추천!</p>
+          <p>
+            <span>추천 여행 지역 확인하기 &nbsp;&nbsp;</span>
+          </p>
+          <p id="close_aside">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </p>
+        </div>
+      </aside>
+      <!-- /Aside SNB -->
+
+      <!-- Header -->
+      <header>
+        <div class="lnb_all">
+          <!-- Logo Area + LNB Menu -->
+          <div class="root_lnb w1300">
+            <!-- Logo Area -->
+            <h1><img src="./images/main/mainLogo.png" alt="카사로고" /></h1>
+            <!-- /Logo Area -->
+            <!-- LNB Menu -->
+            <nav class="local">
+              <ul class="lnb">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+              </ul>
+            </nav>
+            <!-- /LNB Menu -->
+          </div>
+          <!-- /Logo Area + LNB Menu -->
+        </div>
+
+        <!-- GNB Menu -->
+        <div class="gnb_all">
+          <div class="w1300">
+            <nav class="global">
+              <ul class="gnb">
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">VISA</a></li>
+                <li><a href="#">ACTIVITY</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li class="no_mr"><a href="#">PROMOTIONAL</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /GNB Menu -->
+      </header>
+      <!-- /Header -->
+
+      <!-- Slider -->
+      <div class="slider_wrap" id="slideshow">
+        <div id="slider_banner_main" class="mainSlider">
+          <div id="item01">
+            <a href="#" class="item_a">
+              <img src="./images/slide01.png" alt="" />
+            </a>
+          </div>
+          <div id="item02">
+            <a href="#" class="item_a">
+              <img src="./images/slide02.png" alt="" />
+            </a>
+          </div>
+          <div id="item03">
+            <a href="#" class="item_a">
+              <img src="./images/slide02.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- /Slider -->
+
+      <!-- Contents -->
+      <main role="main">
+        <!-- Section 01 -->
+        <section class="md_pick w1300">
+          <h2>
+            <figure>
+              <video
+                class="sec_1_gif_video"
+                muted
+                loop
+                width="626"
+                height="480"
+                autoplay
+              >
+                <source src="./media/gif.mp4" type="video/mp4" />
+              </video>
+            </figure>
+          </h2>
+          <h3>
+            인기 여행 지역
+            <!-- <img src="http://place-hold.it/172x24/00ff00" alt="타이틀" /> -->
+            <div class="md_pick_area">
+              <ul>
+                <li class="after">
+                  <a href="#">
+                    <div class="name">Kuala Lumpur</div>
+                    <img src="./images/main/kl01.png" alt="쿠알라룸푸르" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="name">Mountain<br /><br />Kinabalu</div>
+                    <img
+                      src="./images/main/mountKinabalu02.png"
+                      alt="키나발루산"
+                    />
+                  </a>
+                </li>
+                <li class="no_mr">
+                  <a href="#">
+                    <div class="name">Perhentian Besar<br /><br />Island</div>
+                    <img
+                      src="./images/main/PerhentianBesarIsland03.png"
+                      alt="페렌티안섬"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <p class="more">
+              <a href="#">
+                <em>더보기&nbsp;&#43;</em>
+                <!-- <img
+                  src="http://place-hold.it/130x32/848484"
+                  alt="전체상품보기"
+              /> -->
+              </a>
+            </p>
+          </h3>
+        </section>
+        <!-- /Section 01 -->
+
+        <!-- Section 02 -->
+        <section class="real_title">
+          <h2 class="real_time w1300">
+            <ul>
+              <li>
+                <img src="./images/main/logo.png" alt="리얼타임타이틀" />
+              </li>
+              <li><a>#말레이시아 TOP 10</a></li>
+              <li><a>#쿠알라 룸푸르</a></li>
+              <li><a>#겐팅 하이랜드</a></li>
+              <li><a>#말레이시아 야시장</a></li>
+              <li class="go_youtube">
+                <a
+                  href="https://www.youtube.com/watch?v=EVG-IH8cMYs"
+                  target="_blank"
+                  >YOUTUBE에서 보기</a
+                >
+              </li>
+            </ul>
+            <div class="real_time_video00">
+              <iframe
+                src="https://www.youtube.com/embed/EVG-IH8cMYs"
+                id="https://www.youtube.com/watch?v=EVG-IH8cMYs"
+                frameborder="0"
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                width="800"
+                height="450"
+              ></iframe>
+            </div>
+            <div class="real_time_video01">
+              <iframe
+                src="https://www.youtube.com/embed/DVTgbDU0yqM"
+                id="https://www.youtube.com/watch?v=DVTgbDU0yqM"
+                frameborder="0"
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                width="800"
+                height="450"
+              ></iframe>
+            </div>
+            <div class="real_time_video02">
+              <iframe
+                src="https://www.youtube.com/embed/XR_9GjvV2NY"
+                id="https://www.youtube.com/watch?v=XR_9GjvV2NY"
+                frameborder="0"
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                width="800"
+                height="450"
+              ></iframe>
+            </div>
+            <div class="real_time_video03">
+              <iframe
+                src="https://www.youtube.com/embed/j4fe7zufOh8"
+                id="https://www.youtube.com/watch?v=j4fe7zufOh8"
+                frameborder="0"
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                width="800"
+                height="450"
+              ></iframe>
+            </div>
+          </h2>
+        </section>
+        <!-- /Section 02 -->
+
+        <!-- Section 03 -->
+        <section class="caxa w1300">
+          <h2>
+            리뷰
+            <!-- <img src="http://place-hold.it/260x32/848484" alt="카사타이틀"> -->
+          </h2>
+          <div class="caxa_sns">
+            <ul>
+              <li class="no_ml">
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review1.png"
+                    alt="SNS 리뷰01"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review1_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/naverBlog.png" alt="네이버" />
+                    <span>
+                      kay_aum1991 <br />
+                      5 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+              <li class="no_ml">
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review2.png"
+                    alt="SNS 리뷰02"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review2_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/tStory.png" alt="인스타" />
+                    <span>
+                      noah_Jun <br />
+                      10 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+            </ul>
+            <ul class="big_ul">
+              <li>
+                <!-- Top 5 Review legoland, merdeka square, china town, sunset cruise,sunway lagoon -->
+                <a href="#">
+                  <span class="opacity_cover_375"></span>
+                  <img src="./images/main/review_slide_01.png" alt="SNS top5" />
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review3.png"
+                    alt="SNS 리뷰03"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review3_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/kakaoStory.png" alt="인스타" />
+                    <span>
+                      reeny_jiew <br />
+                      15 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review4.png"
+                    alt="SNS 리뷰04"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review4_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/instagram.png" alt="인스타" />
+                    <span>
+                      hyo_park <br />
+                      21 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review5.png"
+                    alt="SNS 리뷰05"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review5_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/naverBlog.png" alt="인스타" />
+                    <span>
+                      dlwlrma <br />
+                      24 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review6.png"
+                    alt="SNS 리뷰06"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review6_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/naverBlog.png" alt="인스타" />
+                    <span>
+                      good_job <br />
+                      31 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review7.png"
+                    alt="SNS 리뷰07"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review7_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/naverBlog.png" alt="인스타" />
+                    <span>
+                      march_august <br />
+                      32 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="opacity_cover"></span>
+                  <img
+                    src="./images/main/review8.png"
+                    alt="SNS 리뷰08"
+                    class="img_front"
+                  />
+                  <!-- <img
+                    src="./images/main/review8_back.png"
+                    alt="SNS 호버"
+                    class="img_back"
+                  /> -->
+                  <p class="sns_insta">
+                    <img src="./images/main/tStory.png" alt="인스타" />
+                    <span>
+                      example <br />
+                      51 days ago
+                    </span>
+                  </p>
+                  <p class="go_review">
+                    리뷰 보러가기
+                    <img
+                      src="./images/main/next_arrow_black.png"
+                      alt="보러가기"
+                    />
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class="more">
+            <a href="#">
+              <em>더보기&nbsp;&#43;</em>
+              <!-- <img src="http://place-hold.it/130x32/848484" alt="전체리뷰보기"> -->
+            </a>
+          </p>
+        </section>
+        <!-- /Section 03 -->
+      </main>
+      <!-- /Contents -->
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer_information w1300">
+          <div class="footer_left">
+            <nav>
+              <ul class="footer_gnb">
+                <li><a href="#">이용약관&nbsp;&nbsp; |</a></li>
+                <li>
+                  <a href="#">&nbsp;&nbsp;사이트&nbsp;이용안내&nbsp;&nbsp; |</a>
+                </li>
+                <li>
+                  <a href="#">&nbsp;&nbsp;개인정보처리방식&nbsp;&nbsp; |</a>
+                </li>
+                <li><a href="#">&nbsp;&nbsp;고객센터&nbsp;&nbsp; |</a></li>
+                <li><a href="#">&nbsp;&nbsp;1:1문의&nbsp;&nbsp;</a></li>
+              </ul>
+            </nav>
+            <div class="footer_info">
+              <p>
+                주식회사엠씨웹 | 대표이사 : Kay Aum | <br />
+                사업자등록번호 : 120-21-05435 | 통신판매업신고번호 : 제
+                2021-서울강남-00810호 <br />
+                주소 : 서울특별시 강남구 아차산로 123 | 대표전화 : 02-3424-3432
+                | 팩스 : 02-446-7323
+              </p>
+              <p class="footer_escrow">
+                <span>
+                  고객님의 안전거래를 위해 현금 결제시, <br />
+                  구매안전 서비스를 이용하실 수 있습니다 [가입사실확인]
+                </span>
+                <img
+                  src="http://place-hold.it/330x40/000000"
+                  alt="안전거래 확인이미지"
+                />
+              </p>
+              <p>Copyright &copy; 1982 MCWEB., Ltd. All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="footer_contact">
+            <dl>
+              <dt>고객만족센터</dt>
+              <dd>080-555-9812</dd>
+              <dd>평일 09:00 ~ 18:00 | 점심 13:00 ~ 14:00</dd>
+            </dl>
+            <dl>
+              <dt>BANK INFO</dt>
+              <dd>국민은행 801-32-323236-39</dd>
+              <dd>예금주:(주)엠씨웹</dd>
+            </dl>
+          </div>
+        </div>
+      </footer>
+      <!-- /Footer -->
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

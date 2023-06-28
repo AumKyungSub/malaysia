@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* Safe Area */
+.w1280 {
+    width: 1280px;
+    margin: 0 auto;
+}
+/* Footer */
+.footer {
+    background-color: black;
+    color: #fff;
+    padding-top: 100px;
+}
+
+/* Footer Logo, SNS */
+.footer .footer_logo {
+    width: 510px;
+
+    /* 플롯 */
+    float: left;
+
+}
+.footer_logo dt {
+    margin-bottom: 24px;
+}
+.footer_logo dd {
+    font-size: 14px;
+    color: #e1e1e1;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.footer_logo .sns {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Footer Services */
+.footer_services {
+    width: 330px;
+
+    /* 플롯 */
+    float: left;
+    
+}
+.footer_services dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer_services dd {
+    font-size: 14px;
+    color: #c7c4c4;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer_services dd a:hover {
+    color: #fc3;
+}
+
+
+/* Footer Assistance */
+.footer_assistance {
+    width: 330px;
+    
+    /* 플롯 */
+    float: left;
+}
+.footer_assistance dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer_assistance dd {
+    font-size: 14px;
+    color: #c7c4c4;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer_assistance dd a:hover {
+    color: #fc3;
+}
+
+
+/* Footer About */
+.footer_about {
+
+    /* 플롯 */
+    float: left;
+
+}
+.footer_about dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer_about dd {
+    font-size: 14px;
+    color: #c7c4c4;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer_about dd a:hover {
+    color: #fc3;
+}
+
+
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 32px;
+
+    /* 플롯 해제 */
+    clear: both;
+}
+.copyright .copyright_line {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+}
